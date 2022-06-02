@@ -1,0 +1,23 @@
+<template>
+  <h1>v-on keyEvent</h1>
+<form action="http://127.0.0.1:8080" method="post">
+  <button type="submit" @click="warning('Warning!!',$event)">Warning</button>  
+</form>
+</template>
+
+<script>
+export default {
+    methods:{
+        warning(msg,e){
+            //e가 존재한다면 => $event를 통해서 natieve Event에 접근가능
+            if(e) e.preventDefault();
+            alert(e)
+            alert(msg)
+        }
+    }
+}
+</script>
+
+<style>
+
+</style>

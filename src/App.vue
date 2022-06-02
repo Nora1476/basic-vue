@@ -1,22 +1,45 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <Exercise />
+  <div class="container">
+    <div class="box"><Exercise1 /></div>
+    <div class="box"><Exercise2 /></div>
+    <div class="box"><Exercise3 /></div>
+    <div class="box"><Exercise4 /></div>
+    <div class="box"><Exercise5 /></div>
+    <div class="box"><Exercise6 /></div>
+    <div class="box"><Exercise7 /></div>
+    <div class="box"><Exercise8 /></div>
+    <div class="box"><Exercise88 /></div>
+    <div class="box"><Exercise9 /></div>
+    <div class="box"><Exercise10 /></div>
+    <div class="box"><Exercise11 /></div>
+    <div class="box"><Exercise12 /></div>
+    <div class="box"><Exercise13 /></div>
+  </div>
 </template>
 
 <script>
-//import 이름 다르게해서 여러게 동시에 연결가능
-//import Exercise from './components/Vue01_data.vue'
-//import Exercise from './components/Vue02_declaritive_rendering.vue'
-//import Exercise from './components/Vue03_vbind.vue'
-//import Exercise from './components/Vue04_vonce.vue'
-import Exercise from './components/Vue05_vshow.vue'
-//import Exercise6 from "./components/Vue06_vif.vue";
-//import Exercise from "./components/Vue07_vfor.vue";
+// import 이름 다르게해서 여러게 동시에 연결가능
+import Exercise1 from './components/Vue01_data.vue'
+import Exercise2 from './components/Vue02_declaritive_rendering.vue'
+import Exercise3 from './components/Vue03_vbind.vue'
+import Exercise4 from './components/Vue04_vonce.vue'
+import Exercise5 from './components/Vue05_vshow.vue'
+import Exercise6 from './components/Vue06_vif.vue';
+import Exercise7 from './components/Vue07_vfor.vue';
+import Exercise8 from './components/Vue08_von_keyEvent.vue';
+import Exercise88 from './components/Vue08_von.vue';
+import Exercise9 from './components/Vue09_von_Event.vue';
+import Exercise10 from './components/Vue10_von_keyEvent_강사님.vue';
+import Exercise11 from './components/Vue11_von_mouseEvent.vue';
+import Exercise12 from './components/Vue12_von_capture_self.vue';
+import Exercise13 from './components/Vue13_form_element.vue';
 
 export default {
   name: "App",
   components: {
-    Exercise,
+    Exercise1,Exercise2,Exercise3,Exercise4,Exercise5,
+    Exercise6,Exercise7,Exercise8,Exercise88,Exercise9, 
+    Exercise10,Exercise11,Exercise12,Exercise13
   },
 };
 </script>
@@ -29,5 +52,18 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.box {
+  border: 1px solid black;
+  margin :10px;
+  padding: 10px;
+  height: 500px;
+  overflow: auto;
 }
 </style>
