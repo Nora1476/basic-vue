@@ -1,5 +1,5 @@
 <template>
-  <h1>form element binding</h1>
+  <h1>form element binding_ checkbox1</h1>
   <form action="">
       <input type="text" placeholder="edit me" v-model="message" >
       <p>Message is {{message}}</p>

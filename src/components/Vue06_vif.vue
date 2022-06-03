@@ -7,22 +7,24 @@
       번호가 작습니다요
   </div>
 
+    당신의 학점은 : <input type="text" v-model="score">
     <div v-if="score>=90">A</div>
     <div v-else-if="score>=80">B</div>
     <div v-else-if="score>=70">C</div>
     <div v-else>F</div>
   
+    <footer msg="Footer for your Vue.js App"></footer>
+
 </template>
 
 <script>
-const num = prompt('당신의 점수를 입력하세요')
+    // const num = prompt('당신의 점수를 입력하세요')
 export default {
-    // data:() =>{
-    //     return {
-    //         score:num
-    //     }
-    // }
-    data: ()=>({score:num})
+  // data() {
+  //   return {score:num}
+  // }
+  // data:() => ({score:num})
+  data : () => {return {score:0}}
 }
 </script>
 
