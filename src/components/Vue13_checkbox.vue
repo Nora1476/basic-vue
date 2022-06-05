@@ -1,10 +1,10 @@
 <template>
   <h1>form element binding_ checkbox1</h1>
   <form action="">
-      <input type="text" placeholder="edit me" v-model="message" >
+      <!-- <input type="text" placeholder="edit me" v-model="message" >
       <p>Message is {{message}}</p>
 
-    -----------------------------------------------------------------<br>
+    -----------------------------------------------------------------<br> -->
 
     <label for="checkbox"> 체크유무: {{ state }} </label>
       <input type="checkbox" id="checkbox" v-model="checked" v-on:change="checkit"><br><br>

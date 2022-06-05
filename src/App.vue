@@ -88,7 +88,7 @@ export default {
   border-radius: 5%;
   float:left;
   margin: 5px; padding:10px;
-  width: 500px; height: 400px; overflow: auto;
+  width: 500px; height: 500px; overflow: auto;
 }
 
 </style>

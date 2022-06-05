@@ -1,5 +1,5 @@
 <template>
-  <h1>form element select binding</h1>
+  <h1>form element binding _select2</h1>
 
 <p>select는 바인딩을 할 때 option의 value에 binding을 한다. </p>
 

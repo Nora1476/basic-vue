@@ -1,7 +1,7 @@
 <template>
-  <h1>Form element fadio binding</h1>
+  <h1>form element binding _ radio2</h1>
   <label for="radioA">A</label>
-  <input type="radio" name="radio" id="radioA" v-model="pick" v-bind:value="A">
+  <input type="radio" name="radio" id="radioA" v-model="pick" >
   <label for="radioB">B</label>
   <input type="radio" name="radio" id="radioB" v-model="pick" v-bind:value="B">
   <label for="radioC">C</label>
