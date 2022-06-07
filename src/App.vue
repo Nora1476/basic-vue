@@ -23,7 +23,7 @@ import Exercise6 from './components/Vue06_vif.vue';
 import Exercise7 from './components/Vue07_vfor.vue';
 import Exercise8 from './components/Vue08_von.vue';
 import Exercise9 from './components/Vue09_von_Event.vue';
-import Exercise10 from './components/Vue10_von_keyEvent_강사님.vue';
+import Exercise10 from './components/Vue10_von_keyEvent.vue';
 import Exercise11 from './components/Vue11_von_mouseEvent.vue';
 import Exercise12 from './components/Vue12_von_capture_self.vue';
 import Exercise13 from './components/Vue13_checkbox.vue';
@@ -36,6 +36,10 @@ import Exercise19 from './components/Vue19_select_binding_c.vue';
 import Exercise20 from './components/Vue20_form_element_join.vue';
 import Exercise21 from './components/Vue21_o_c_ref_reactive.vue';
 import Exercise22 from './components/Vue22_scriptSetup.vue';
+import Exercise23 from './components/Vue23_vpre.vue';
+import Exercise24 from './components/Vue24_computed.vue';
+import Exercise25 from './components/Vue25_watch_watchEffect.vue';
+//import Exercise26 from './components/Vue26_component_create.vue';
 
 import Footer from './components/Vue_Footer.vue';
 
@@ -45,7 +49,7 @@ export default {
     Exercise1,Exercise2,Exercise3,Exercise4,Exercise5,Exercise6,Exercise7,
     Exercise8,Exercise9,Exercise10,Exercise11,Exercise12,Exercise13,Exercise14,
     Exercise15,Exercise16,Exercise17,Exercise18, Exercise19,Exercise20,Exercise21,
-    Exercise22,
+    Exercise22,Exercise23,Exercise24,Exercise25,
     Footer
   },
   data() {
@@ -54,7 +58,7 @@ export default {
         Exercise1,Exercise2,Exercise3,Exercise4,Exercise5,Exercise6,Exercise7,
         Exercise8,Exercise9,Exercise10,Exercise11,Exercise12,Exercise13, Exercise14, 
         Exercise15,Exercise16,Exercise17,Exercise18, Exercise19,Exercise20,Exercise21,
-        Exercise22
+        Exercise22,Exercise23,Exercise24,Exercise25,
        ],
       classCard:"card"
     }
@@ -72,18 +76,7 @@ export default {
   margin-top: 60px;
 }
 
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr)
-} */
 
-/* .card {
-  border: 1px solid black;
-  margin :10px;
-  padding: 10px;
-  height: 500px;
-  overflow: auto;
-} */
 .container {
   overflow: hidden;
 }

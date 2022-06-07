@@ -37,6 +37,8 @@ export default {
     onMounted(() =>{
       getSelText()
     })
+
+    // 템플릿에 노출
     return {
       selItem, selText, selected, selectText, getSelText, selChange
     }
