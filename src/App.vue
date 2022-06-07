@@ -21,8 +21,7 @@ import Exercise4 from './components/Vue04_vonce.vue'
 import Exercise5 from './components/Vue05_vshow.vue'
 import Exercise6 from './components/Vue06_vif.vue';
 import Exercise7 from './components/Vue07_vfor.vue';
-import Exercise8 from './components/Vue08_von_keyEvent.vue';
-import Exercise88 from './components/Vue08_von.vue';
+import Exercise8 from './components/Vue08_von.vue';
 import Exercise9 from './components/Vue09_von_Event.vue';
 import Exercise10 from './components/Vue10_von_keyEvent_강사님.vue';
 import Exercise11 from './components/Vue11_von_mouseEvent.vue';
@@ -32,26 +31,31 @@ import Exercise14 from './components/Vue14_radio.vue';
 import Exercise15 from './components/Vue15_select.vue';
 import Exercise16 from './components/Vue16_checkbox.vue';
 import Exercise17 from './components/Vue17_radio_binding.vue';
-import Exercise18 from './components/Vue18_select_binding.vue';
-import Exercise19 from './components/Vue19_form element_join.vue';
+import Exercise18 from './components/Vue18_select_binding_o.vue';
+import Exercise19 from './components/Vue19_select_binding_c.vue';
+import Exercise20 from './components/Vue20_form_element_join.vue';
+import Exercise21 from './components/Vue21_o_c_ref_reactive.vue';
+import Exercise22 from './components/Vue22_scriptSetup.vue';
 
 import Footer from './components/Vue_Footer.vue';
 
 export default {
   name: "App",
   components: {
-    Exercise1,Exercise2,Exercise3,Exercise4,Exercise5,
-    Exercise6,Exercise7,Exercise8,Exercise88,Exercise9, 
-    Exercise10,Exercise11,Exercise12,Exercise13,Exercise14,
-    Exercise15,Exercise16,Exercise17,Exercise18, Exercise19,
+    Exercise1,Exercise2,Exercise3,Exercise4,Exercise5,Exercise6,Exercise7,
+    Exercise8,Exercise9,Exercise10,Exercise11,Exercise12,Exercise13,Exercise14,
+    Exercise15,Exercise16,Exercise17,Exercise18, Exercise19,Exercise20,Exercise21,
+    Exercise22,
     Footer
   },
   data() {
     return{
-      arrList:[Exercise1,Exercise2,Exercise3,Exercise4,Exercise5,
-      Exercise6,Exercise7,Exercise8,Exercise88,Exercise9, 
-      Exercise10,Exercise11,Exercise12,Exercise13, Exercise14, 
-      Exercise15,Exercise16,Exercise17,Exercise18, Exercise19 ],
+      arrList:[
+        Exercise1,Exercise2,Exercise3,Exercise4,Exercise5,Exercise6,Exercise7,
+        Exercise8,Exercise9,Exercise10,Exercise11,Exercise12,Exercise13, Exercise14, 
+        Exercise15,Exercise16,Exercise17,Exercise18, Exercise19,Exercise20,Exercise21,
+        Exercise22
+       ],
       classCard:"card"
     }
   }
