@@ -39,7 +39,7 @@ export default {
       watch(
           count_c_1, function(cur, prev){
               console.log(`Composition API Watch: ${prev} ==> ${cur}`);
-          }, //immediate:true 일 경우  초기값부터 변화(indefined -> 0)을 파악함
+          },{immediate:true,} //immediate:true 일 경우  초기값부터 변화(indefined -> 0)을 파악함
       )
       watch(
           [count_c_1, count_c_2], function(cur, prev){
